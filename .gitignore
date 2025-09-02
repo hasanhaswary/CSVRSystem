@@ -7,9 +7,9 @@
 !/[Aa]ssets/[Ss]cenes/*.meta
 
 # Allow Scripts and their meta files
-!/[Aa]ssets/[Ss]cripts/
-!/[Aa]ssets/[Ss]cripts/*.cs
-!/[Aa]ssets/[Ss]cripts/*.meta
+!/[Aa]ssets/[Pp]roject[Ff]olders/[Ss]cripts/
+!/[Aa]ssets/[Pp]roject[Ff]olders/[Ss]cripts/*.cs
+!/[Aa]ssets/[Pp]roject[Ff]olders/[Ss]cripts/.meta
 
 # Allow top-level Assets folder and its meta file
 !/[Aa]ssets/
