@@ -1,0 +1,21 @@
+# Ignore everything by default
+*
+
+# Allow Scenes and their meta files
+!/[Aa]ssets/[Ss]cenes/
+!/[Aa]ssets/[Ss]cenes/*.unity
+!/[Aa]ssets/[Ss]cenes/*.meta
+
+# Allow Scripts and their meta files
+!/[Aa]ssets/[Ss]cripts/
+!/[Aa]ssets/[Ss]cripts/*.cs
+!/[Aa]ssets/[Ss]cripts/*.meta
+
+# Allow top-level Assets folder and its meta file
+!/[Aa]ssets/
+!/[Aa]ssets/.meta
+
+# Allow ProjectSettings to track essential project configurations
+!/[Pp]roject[Ss]ettings/
+!/[Pp]roject[Ss]ettings/*.asset
+!/[Pp]roject[Ss]ettings/*.meta
