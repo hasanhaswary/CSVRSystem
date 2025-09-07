@@ -1,21 +1,78 @@
 # Ignore everything by default
 *
 
-# Allow Scenes and their meta files
-!/[Aa]ssets/[Ss]cenes/
-!/[Aa]ssets/[Ss]cenes/*.unity
-!/[Aa]ssets/[Ss]cenes/*.meta
+# Allow only these
+!*.cs
+!*.asmdef
+!*.json
+!*.yaml
+!*.yml
+!*.xml
+!*.txt
+!*.md
 
-# Allow Scripts and their meta files
-!/[Aa]ssets/[Pp]roject[Ff]olders/[Ss]cripts/
-!/[Aa]ssets/[Pp]roject[Ff]olders/[Ss]cripts/*.cs
-!/[Aa]ssets/[Pp]roject[Ff]olders/[Ss]cripts/.meta
+# Allow Unity project settings (keeps project config)
+!ProjectSettings/
+!Packages/
 
-# Allow top-level Assets folder and its meta file
-!/[Aa]ssets/
-!/[Aa]ssets/.meta
+# Ignore Library, Temp, Logs, Builds, etc.
+[Ll]ibrary/
+[Tt]emp/
+[Bb]uild*/
+[Bb]uilds/
+[Ll]ogs/
+[Oo]bj/
+[Mm]emoryCaptures/
+UserSettings/
+SysCache/
 
-# Allow ProjectSettings to track essential project configurations
-!/[Pp]roject[Ss]ettings/
-!/[Pp]roject[Ss]ettings/*.asset
-!/[Pp]roject[Ss]ettings/*.meta
+# Ignore asset meta files except for scripts
+*.meta
+!*.cs.meta
+!ProjectSettings/*.meta
+!Packages/*.meta
+
+# Ignore Unity cache and auto-generated files
+Assets/StreamingAssets/
+Assets/Editor/UnityCache/
+Assets/Plugins/
+
+# Ignore models, textures, audio, prefabs, and other assets
+*.fbx
+*.obj
+*.dae
+*.3ds
+*.dxf
+*.blend
+*.mat
+*.prefab
+*.unity
+*.png
+*.jpg
+*.jpeg
+*.tga
+*.psd
+*.tif
+*.tiff
+*.wav
+*.mp3
+*.ogg
+*.aiff
+
+# Ignore Visual Studio / Rider files
+.vscode/
+.idea/
+*.sln
+*.csproj
+*.unityproj
+*.pidb
+*.user
+*.userprefs
+*.db
+*.opendb
+*.VC.db
+
+# Ignore crash and debug logs
+*.stacktrace
+*.log
+*.vs/
