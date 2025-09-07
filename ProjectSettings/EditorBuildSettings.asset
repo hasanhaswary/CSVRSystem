@@ -13,10 +13,13 @@ EditorBuildSettings:
     guid: 54c8a05d0727b3d4288c61cfb5f1925c
   - enabled: 1
     path: Assets/ProjectFolders/Scenes/CasesView.unity
-    guid: 6cb82cbc3051052498daac03ac251051
+    guid: 0e404c46fbe710241b4643b3560e93ad
   - enabled: 1
     path: Assets/ProjectFolders/Scenes/CrimeScene001.unity
     guid: 6bfe02f97d683cd4ab4c42a124d7cc9f
+  - enabled: 0
+    path: Assets/ProjectFolders/Scenes/CrimeScene001_3.unity
+    guid: 1730bf9a151810045a1341fcab27099b
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: ae3a893a97c70d043bb60c12f27eb740,
       type: 2}
