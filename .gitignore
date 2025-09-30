@@ -1,0 +1,30 @@
+# Ignore everything
+*
+
+# don't ignore the gitignore file itself
+!.gitignore
+
+# Allow Unity folders that contain source
+!Assets/
+!Assets/**
+
+!ProjectSettings/
+!ProjectSettings/**
+!Packages/
+!Packages/**
+
+# Unity build/artifacts
+Library/
+Temp/
+Obj/
+Build/
+[Ll]ogs/
+UserSettings/
+
+# Visual Studio / Rider / IDE files
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
