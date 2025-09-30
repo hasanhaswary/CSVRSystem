@@ -76,11 +76,9 @@ The project is distributed as an **APK file** for Meta VR headsets.
 
 ## Screenshots / GIFs 🖼️
 
-*(Placeholders — replace with real images/GIFs from your VR scenes)*
-
 | Login Screen                             | VR Crime Scene                                       | Evidence Interaction                           |
 | ---------------------------------------- | ---------------------------------------------------- | ---------------------------------------------- |
-| ![Login](./assets/screenshots/login.png) | ![Crime Scene](./assets/screenshots/crime_scene.png) | ![Evidence](./assets/screenshots/evidence.png) |
+| <img width="350" height="350" alt="login" src="https://github.com/user-attachments/assets/b72ef445-ab51-4a88-8daf-a57afe8e2a02" /> | <img width="350" height="350" alt="crime_scene" src="https://github.com/user-attachments/assets/0877f64a-ae85-4ba3-bf24-e4e44895dd78" /> | <img width="350" height="350" alt="evidence" src="https://github.com/user-attachments/assets/8bd34d0d-15fd-45a5-9006-5a2e79ec5389" /> |
 
 ---
 
